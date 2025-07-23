@@ -34,7 +34,7 @@ temp_df.columns = [
 df = pd.concat([df, temp_df], ignore_index=True)
 #print(df)
 
-# サンプルデータ行の削除する場合
+# サンプルデータ行を削除する場合
 #df = df.drop(2)
 
 # xlsx形式で出力し、シート名はstat1とする場合
