@@ -6,6 +6,8 @@ import openpyxl
 
 df = pd.DataFrame()
 
+#処理するEXCLEファイルは、c:/work/dataのフォルダーに保存しておく
+♯フォルダー名を変更する場合は、以下の行のxlsxの保存先を修正する
 df_sheet_name = pd.read_excel('C:/work/data/【完成版】ぎふの学校図書館データ調査票_令和7年度版.xlsx', sheet_name='入力用シート１', index_col=0, engine='openpyxl')
 
 #縦横の変換
