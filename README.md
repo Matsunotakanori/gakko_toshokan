@@ -1,4 +1,4 @@
-# gifu_gakkou_toshokan
+# gakko_toshokan
 ぎふの学校図書館データ調査票_令和7年度版 ツール
 
 1. sample001.py  入力シート1の縦と横を入れ替える。
